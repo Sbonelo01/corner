@@ -108,6 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  color: black;
 }
 
 .nav-menu > ul > li {
@@ -120,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   position: relative;
   /*color: rgba(255, 255, 255, 0.8);*/
-  color: orange;
+  color: black;
   padding: 8px 0 12px 0;
   transition: 0.3s;
   font-size: 14px;
@@ -281,7 +282,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #1bac91;
+  /*color: #1bac91;*/
+  color: black;
   text-decoration: none;
 }
 
@@ -347,6 +349,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   margin-top: 72px;
   padding: 0;
+  display: table;
+  border-collapse: collapse;
 }
 
 #hero:before {
@@ -1525,7 +1529,21 @@ section {
 
 /*custom*/
 
-.lost-in-a-trance-text {
-  /*this will be some styling to align the text according to design spec*/
-  
+.form-aligner {
+  display: table-row;
+  vertical-align: bottom;
+  height: 1px;
+}
+
+.form-copy {
+  color: white;
+}
+
+.section-class {
+  position: relative;
+}
+
+.under-form {
+  background-color: white;
+  margin-bottom: 0px;
 }
