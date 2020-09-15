@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: orange;
+  color: black;
 }
 
 .nav-menu .drop-down ul {
@@ -383,12 +383,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 28px;
+  padding-left: 5px;
   border-radius: 4px;
   transition: 0.5s;
   border: 2px solid orange;
@@ -397,7 +398,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .btn-get-started:hover {
   border-color: orange;
-  background: orange;
+  /*background: orange;*/
 }
 
 @media (min-width: 1024px) {
