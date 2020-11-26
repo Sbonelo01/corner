@@ -1549,3 +1549,7 @@ section {
   background-color: white;
   margin-bottom: 0px;
 }
+.our-thing {
+  height: 100%;
+  background-color: red;
+}
